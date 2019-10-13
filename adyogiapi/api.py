@@ -45,7 +45,7 @@ class AdyogiView(views.APIView):
             "products": serializer.data
         })
 
-    def delete(self, **kwargs):
+    def delete(self, request, *args, **kwargs):
         """
         Will delete the product with requested pk value if exist.
         :param kwargs:
