@@ -6,3 +6,5 @@ steps to follow:
 3. hit following url
   'http://127.0.0.1:8000/product/1' will fetch product with id=1
 4. On the same url a new product can be created and can be deleted.
+
+Note: aws rds will be inactive in 48 hrs
