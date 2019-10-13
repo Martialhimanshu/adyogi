@@ -38,7 +38,7 @@ class AdyogiView(views.APIView):
         serializer = ProductSerializer(data=data)
         if serializer.is_valid(raise_exception=True):
             product_created = serializer.save()
-        serializer = ProductSerializer(product_created, many=True)
+        serializer = ProductSerializer(product_created)
         return Response({
             "success": 'New product created',
             "status": status.HTTP_201_CREATED,
