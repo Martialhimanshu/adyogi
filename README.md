@@ -1,5 +1,5 @@
 # Adyogi Assignment
-# Instruction: To run this project on linux system you need linux, python3 and virtualenv packages on system
+Instruction: To run this project on linux system you need linux, python3 and virtualenv packages on system
 # steps to follow
 > Open terminal
 > install pip on system so that python packages can be installed.
