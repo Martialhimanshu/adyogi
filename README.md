@@ -1,7 +1,6 @@
-# adyogi
-Adyogi Assignment
-Instruction: To run this project on linux system you need linux, python3 and virtualenv packages on system
-steps to follow
+# Adyogi Assignment
+# Instruction: To run this project on linux system you need linux, python3 and virtualenv packages on system
+# steps to follow
 > Open terminal
 > install pip on system so that python packages can be installed.
   to install pip use command `use sudo apt-get install python3-pip`
@@ -17,4 +16,9 @@ step2. Open browser and hit following url
   'http://127.0.0.1:8000/product/1' will fetch product with id=1
 step3. On the same url a new product can be created and can be deleted.
 
-Note: aws rds will be inactive in 48 hrs
+# To view tables and data at project admin use following steps
+1. url: http://127.0.0.1:8000/admin/
+2. credential: user= mhimanshu, password= adyogi@123
+3. you'll have multiple db table as a list, you can access those table and its data too.
+
+# Note: aws rds will be inactive in 48 hrs
